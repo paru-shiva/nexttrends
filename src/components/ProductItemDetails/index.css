@@ -1,0 +1,130 @@
+/* Write your CSS here */
+.productItemDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productDetails {
+  display: flex;
+  justify-content: center;
+}
+
+.failureView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorImage {
+  width: 50%;
+}
+
+.continueButton {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 8px;
+  padding: 5px 15px;
+  border: none;
+}
+
+.individualProductShow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productImage {
+  width: 40%;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+.productFullDetails {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.pricePara {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.reviewsAndRatings {
+  display: flex;
+  align-items: center;
+}
+
+.ratingsdiv {
+  display: flex;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  height: 22px;
+  margin: 0px;
+  padding: 0px 5px;
+  margin-right: 10px;
+}
+
+.ratingsPara {
+  margin: 0px;
+  color: white;
+  padding: 0px 2px;
+}
+
+.reviewsPara {
+  margin: 0px;
+}
+
+.productDescription {
+  color: #616e7c;
+  text-align: justify;
+}
+
+.fontColor {
+  color: #616e7c;
+}
+
+.smallParas {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.hRule {
+  width: 100%;
+  color: #616e7c;
+}
+
+.countButtons {
+  display: flex;
+
+  align-items: center;
+}
+
+.countBtn {
+  background-color: white;
+border: none;
+  margin: 8px;
+}
+
+.countPara {
+  margin: 0px 10px;
+  color: #616e7c;
+}
+
+.addToCartButton {
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 15px;
+  color: white;
+  background-color: #3b82f6;
+  align-self: flex-start;
+}
+
+.relatedProductsUl {
+  padding-left: 0px;
+  display: flex;
+}
